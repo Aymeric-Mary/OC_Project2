@@ -24,7 +24,7 @@ public class ReadSymptoms implements ISymptomReader {
 	}
 	
 	@Override
-	public List<String> GetSymptoms() throws IOException {
+	public List<String> getSymptoms() throws IOException {
 		ArrayList<String> result = new ArrayList<>();
 		
 		if (filepath != null) {
